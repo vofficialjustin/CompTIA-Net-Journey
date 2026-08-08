@@ -1,0 +1,14 @@
+Ways to have IPv4 and IPv6 compatable with eachother
+
+Dual Stack
+    - Allows coexistence operation of both IPv4 and IPv6 protocols on the same network infratructure
+    - Prefers IPv6, but will fallback on IPv4
+
+Tunneling
+    - Encapsulates packets of a different protocol
+    - IPv6 packets encapsulated within IPv4 packets
+
+NAT64
+    - Network address translation mechanism
+    - Allows IPv6-only devices to communicate with IPv4 servers and services
+    - Involves a NAT gateway that translates IPv6 into IPv4 before travel and vice versa

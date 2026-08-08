@@ -1,0 +1,15 @@
+CIDR                    Subnets                 IPs
+/24                     1                       256
+/25                     2                       128
+/26                     4                       64
+/27                     8                       32
+/28                     16                      16
+/29                     32                      8
+/30                     64                      4
+
+
+To find the amount of IPs: 32 - Network bits = # 0f hosts
+                           2^# of hosts = amount of total IPs
+
+To find the amount of Subnets: Network bits - 24 = |borrowed bits|
+                               2^Borrowed bits = amount of Subnets

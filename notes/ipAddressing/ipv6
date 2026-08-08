@@ -1,0 +1,29 @@
+Made due to Addess Exhaustion (No more available addresses)
+
+Difference compared to IPv4
+    - Larger address space
+    - No broadcast
+    - More secure
+    - No fragmentation
+    - Uses Hexadecimal ( 0-9 A-F )
+    - 2^128 instead of 2^32 ( 4.3 Billion Addresses (IPv4) vs 340 Undecillion Addresses (IPv6) )
+
+Conversion of a IPv6 address
+
+2018:0000:0000:0000:0000:0000:4815:54ae             ---->              2018::4815:54ae
+(32 Hexadecmial digits / 8 octets)
+
+A single interface can be assigned to multiple different IPv6 Addresses
+
+TYPES
+Unicast Addresses    -   Identifies a single interface
+                        - Globally-routed (like IPv4, Classes A,B,C; Begins with 2000-3999)
+                        - Link-Local (like private IP in IPv4 that can only be used in LANs; Begins with FE80) (SLAAC --> EUI, NDP)
+Mulitcast Addresses  -   Identifies a set of interfaces and begins with FF
+Anycast Addresses    -   Identifies a set of interfaces that a packet can be sent to any member of a set
+
+
+DATA FLOWS 
+Unicast     -   Same as IPv4
+Multicast   -   Same as IPv4
+Anycast     -   Data travels from a single source device to devices nearest to multiple (but specific) destination devices

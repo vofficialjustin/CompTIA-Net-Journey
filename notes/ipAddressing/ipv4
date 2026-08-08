@@ -1,0 +1,37 @@
+Dotted Notation, Binary
+
+Class     1st Octet Value     Default Subnet Mask     CIDR      # of hosts
+A           1-127             255.0.0.0               /8         16.7M
+B           128-191           255.255.0.0             /16        65,536
+C           192-223           255.255.255.0           /24         256
+D           224-239           (Multicast)              -           -
+E           240-255                -                   -          268M 
+                                                                (reserved)
+
+
+TYPES
+Public      -   Gobal identifiers to communicate over Internet (managed by ICAAN)
+Private     -   Used within LAN and allows internal communicattion w/o direct exposure to the internet
+LoopBack    -   Used for internal testing of devices network protocols
+APIPA       -   Fallback for when DHCP fails, but are conisdered private IPs
+
+
+DATA FLOWS
+Unicast     -   Single source to a single destination
+Mulitcast   -   Data travels from single source to multiple (but intentional) destination devices
+Broadcast   -   Data travels from a single source to all devices on a destination network
+
+
+IP ADDRESS ASSIGNMENT
+
+Components
+    - IP Address
+    - Subnet Mask
+    - Default Gateway
+    - Server Address
+
+Static  -   Manually assigning an IP Address
+
+OR
+
+Dynamic -   Automatically (BOOTP, DHCP, APIPA, ZeroConf)
