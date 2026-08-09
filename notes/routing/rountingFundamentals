@@ -1,0 +1,15 @@
+Whats a router?
+    - Forwards traffic between subnets, between an internal and external network, or between two external networks
+
+How PC1 communicates to PC2 through a network
+    1.  Two routers will have some kind of connectivity between eachother
+    2.  PC1 sends an ARP packet to switch which will realize it does not know the MAC address to the destination device within that local area.
+    3.  That ARP Request gets forwarded to the default gateway of the router 1
+    4.  The router 1 then sends a ARP reply to PC1
+    5.  PC1 sends data frame to the router 1 where the MAC address is then switched to an IP address
+    6.  Router 1 packs it into a layer 3 packet and then adds an IP header to it.
+    7.  The data is now able to go across to another router.
+    8.  Router 1 sends that data to router 2.
+    9.  Router 2 recives the data and strips the IP header off of the packet and brings it back down to layer 2 frames
+    10. Router correlates PC2's MAC address with the destination IP of the packet
+    11. Since they are on the same network, the switch takes the information from the router 2 and directs it to PC2

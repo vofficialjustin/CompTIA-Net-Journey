@@ -1,0 +1,23 @@
+Determining which path a router could take
+
+Things to consider:
+    Believablility of a route
+
+        Since routers can support multiple protocols at once, we have to decide which protocol to go with based one certain factors
+
+        Routers use an index of believability --> Administratice Distance (AD)
+
+        Lower AD is considered more believable/trustworthy
+
+        Believable ---> less Believable
+
+        Directly Connected --> Statically Connected --> EIGRP --> OSPF --> RIP
+
+
+    Metrics associated with each of the routes
+        - Hop count         - Delay         - Believability         - Costs
+        - Reliability       - Bandwidth     - Other metrics
+
+        Each protocol uses a different metric depending on what it considers faster or slower
+
+        Lower metrics are preferred over higher metrics

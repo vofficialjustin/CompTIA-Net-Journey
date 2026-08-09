@@ -1,0 +1,24 @@
+TYPES
+Internal
+    - Interior Gateway Protocol (IGP): Operates WITHIN an autonomous system
+External    
+    -   Exterior Gateway Protocol (EGP): Operates BETWEEN autonomous systems
+
+
+METHODS OF ROUTING
+
+Distance Vector -   Sends full copy of routing table to its directly-connected neighbors at regular intervals; Considers Hops (Amount of Routers it takes to get to destination); SLow     Convergence time (How long it takes for routing tables to update when theres a change of topology)
+
+Link State  -   Requires all routers to know about the paths that all other routers can reach in the network; Faster Convergence; Uses cost as a metric to determine best speed path
+
+Hybrid  -   Both
+
+
+PROTOCOLS                                               TYPE                              INTERIOR/EXTERIOR                    PURPOSE
+Routing Information Protocol (RIP):                 Distance Vector                            INTERIOR          Uses hop count (Max hops of 15; 16 is infinite)
+Border Gateway Protocol (BGP):                      Path Vector                                EXTERIOR          Path vector that uses the number of autonomous system hops instead of
+                                                                                                                 router hops; Slow Convergence
+Open Shortest Path First (OSPF):                    Link State                                 INTERIOR          Uses Cost
+Intermediate System to Intermediate System (IS-IS): Link State                                 INTERIOR          Uses cost and functions like OSPF protocol, not as widely popular
+Enhanced Interior Gateway Routing Protocol (EIGRP): Advanced Distance Vector                   INTERIOR          Uses bandwidth and delay
+

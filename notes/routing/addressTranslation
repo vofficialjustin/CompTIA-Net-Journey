@@ -1,0 +1,16 @@
+Translating IPv4 ----> IPv6
+
+TYPES
+Network Address Translation (NAT)   -   Translates private IP addresses to public IP addresses for routing over public networks
+    Dynamic NAT (DNAT)
+        - Automatically assigns an IP address from a pool and gives a one-to-one translation (like renting out an IP address)
+    Static NAT (SNAT) 
+        - Manually assigns a public IP address to a private IP address for one-to-one translation (like owning an IP address)
+    Port Address Translation (PAT)
+        - Sharing of one public IP by multiple private IP addresses which gives a many-to-one translation (like sharing a phone number with extensions)
+
+Different Names of NAT IP Addresses
+    Inside Local Address (ILA) - Private IP address assigned to a host on the inside network
+    Inside Global Address (IGA) - Public IP address assigned to a host on the inside network
+    Outside Local Address (OLA) - Private IP address assigned to a host on the outside network
+    Outside Global Address (OGA) - Public IP address assigned to a host on the outside network

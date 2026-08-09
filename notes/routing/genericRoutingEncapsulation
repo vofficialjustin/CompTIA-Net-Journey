@@ -1,0 +1,7 @@
+Generic Routing Encapsulation (GRE) - Tunneling Protocol used to encapsulate a wide variety of network layer protocols 
+                                      inside virtual point-to-point links over an Internet Protocol network
+                                    - Operates at layer 3
+                                    - Can be used to connect multiple branch office locations together
+                                    - Safe and secure tunneling mechanism
+                                    - Provides versitality and integration by allowing different netwolrk protocols to coexist and collaborate if you're using heterogenous network environments
+                                    - Universal Translator

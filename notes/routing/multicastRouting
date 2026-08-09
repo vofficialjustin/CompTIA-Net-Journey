@@ -1,0 +1,12 @@
+Multicast Routing
+    - Multicast sender sends traffic to a Class D IP Address, known as a multicast group
+
+TWO PRIMARY WAYS OF DOING THIS
+Internet Group Management Protocol (IGMP) - Used by clients and routers to let the routers know which interfaces have multicast recievers and allow clients to join a multicast group
+    IGMPv1: Client requests joining the group and is asked every minute if it wants to remain in the group (Causes unnecessary traffic)
+    IGMPv2: Client can send a leave message to exit a multicast group
+    IGMPv3: Client can request multicast only from a specific server
+
+Protocol Independant Multicast (PIM) - Routes multicast traffic between routers and forms a multicast distribution tree
+    Dense Mode (PIM-DM) - Periodic flood and prune behavior (We don't use often) Floods network, finds most optimal route, then prunes (gets rid of) the other routes that weren't included
+    Sparse Mode (PIM-SM) - Uses a shared distribution tree and creates an optimal distribution tree through shortest path tree (SPT) switchover (Less resources up front)

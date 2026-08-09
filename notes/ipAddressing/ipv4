@@ -16,6 +16,16 @@ LoopBack    -   Used for internal testing of devices network protocols
 APIPA       -   Fallback for when DHCP fails, but are conisdered private IPs
 
 
+RANGES
+Private     -   10.X.X.X
+            -   172.16.X.X - 172.31.X.X
+            -   192.168.1.X
+
+Loopback    -   127.0.0.1
+
+APIPA       -   169.254.0.0 - 169.254.255.255
+
+
 DATA FLOWS
 Unicast     -   Single source to a single destination
 Mulitcast   -   Data travels from single source to multiple (but intentional) destination devices

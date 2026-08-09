@@ -1,0 +1,20 @@
+Routing Redundancy Protocol
+    - Network protocol that prevents disruptions in communication by automatically rerouting data traffic in case of a path or device failure
+
+First Hop Redundancy Protocol (FHRP)
+    - Set of protocols designed to ensure network reliability by provising automatic failover to a backup router to maintain uninterrupted network service
+    (Like when there is construction on the road and there are signs and traffic controls that guide everyone to flow through the road more efficiently)
+
+    Benefits: Reliability, Load Balancing, Seamless transitions
+
+    To make this protocol work, we need two critical components:
+        Virtual IP  -  IP address that is not bound to a specific device but serves as a representative for one or multiple devices
+        Subinterface    -   Allows physical interface in a router or switch to be subdivided into a multiple logical interface; segments and manages networks
+
+
+3 MAIN PROTOCOLS THAT ARE CONSIDERED TO BE FHRP
+Hot Standby Router Protocol (HSRP) - Establishes a fault-tolerant default gateway for devices on a local network segment; Active Router and Standby Router (Takes over whenever active fail)
+
+Virtual Router Redundancy Protocol (VRRP) - Similar to HSRP; Open Standard (Not tied to specific vendor and more compatible); Multiple router config
+
+Gateway Load Balancing Protocol (GLBP) - Adding load balancing capabilities into the mix; Still allows multiple routers

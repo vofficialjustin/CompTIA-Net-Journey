@@ -1,0 +1,12 @@
+Routing Table
+    - Helps determine which route entry is the best fit for the network
+
+
+SOURCES THAT ROUTERS ARE GOING TO USE
+Directly Connected Routing    -   Learned by physical connection between routers
+Static Routing  -   Manually configured by an admin
+Dynamic Routing -   Learned by exchanging information between routers
+
+PREVENTING ROUTING LOOPS
+Split Horizon   -   Prevents a route learned on one interface from being advertised back out of that same interface (once it goes in, it can't go back out)
+Poison Reverse  -   Cause a route recieved on one interface to be advertised back out of that same interface at a higher cost so that they would not want to take that route.
