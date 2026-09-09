@@ -1,0 +1,57 @@
+QoS
+
+Categorize and identify types of traffic needing priority
+Determine how much bandwidth is required
+Efficiently use WAN link's bandwidth
+Identify types of traffic to drop during network congestion
+
+Delay - Time packet travels from source to desitination (ms)
+Jitter - Uneven arrival of packets which is bad for VoIP traffic
+Drop - When a router's interface queue overflows and causes packet loss
+
+CATEGORIZATION
+Grouped by buckets and we assign priority to them depending on which one should be faster and which one should be slower
+
+Voice over IP service -> HIGH priority
+
+Web browsing/Email -> LOW Priority
+
+Ways to categorize
+
+Best Effort - No QoS
+    Traffic is first in, first out
+
+Integrated Services (IntServ) - Hard QoS
+    Traffic has strict bandwidth reservations (LIKE dedicated percentages)
+
+Differentiated Services (DiffServ) - Soft QoS
+    Routers and switches can make decisions based on marking and can fluctuate traffic (Percentages, but can increase or decrease depending on demand from that category)
+
+
+MECHANISMS
+Classification - Traffic is placed into different categories (like for email, POP3, IMAP, SMTP, Exchange) ; Does not alter any bits in the frame or packet
+Marking - Alter bits wihtin frame ; Makes decisions based on markings
+Congestion Management - Queueing (Empties packets in specified sequence and amount)
+    Weighted Fair - Takes one from each category at a time
+    Low-Latency - Takes all of one category at a time depending on priority
+    Weight Round Robin (Hybrid) - The concept is it takes 3 out of highest priority, two out of second highest, and one out of the rest and repeat
+
+CONGESTION AVOIDENCE
+    Like a bucket, if you put more after maximum, it will overflow
+
+    Random Early Detection (RED) - Prevent overflow from occuring ; Drops traffic based off priority
+
+
+When putting it all together, we get into the concepts of Policing and Shaping
+
+Policing - Discard packets exceeding the configured rate limit ; Dropped packets result in retransmission resulting in more bandwidth ; Only good for higher-speed interfaces
+
+Shaping - Allows buffer to delay traffic from exceeding the configured rate ; Holds in buffer instead of dropping them ; Pushes them into empty space when available ; Better for slower speeds
+
+Link Efficiency : 
+    Compression = Packet payload is compressed to conserve bandwidth ; 
+        VoIP Example : |IP| |UDP| |RTP| |Voice Payload| -> |cRTP| |Voice Payload / 2|
+
+    Link Fragmentation and Interleaving (LFI)
+        Fragments large data packets and interleaves smaller data packets between the fragments
+        |V| |V| |V| |Data| --> |V| |D| |V| |D| |V| |D|

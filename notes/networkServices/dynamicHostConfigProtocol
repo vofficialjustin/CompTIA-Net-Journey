@@ -1,0 +1,23 @@
+DHCP
+
+Provides an IP address to every machine on the network and elminates configuration errors
+
+Provided an IP from a scope ( A list of valid IP addresses available for assignment )
+
+
+DORA:
+Discover    -   Client asks for an IP to DHCP
+Offer       -   Offers an IP within the scope
+Request     -   If accepted, client requests for that IP
+Acknowledge -   DHCP sends a lease containing which IP got taken and for how long
+
+IP address
+Subnet Mask
+Default gateway IP
+DNS server IP
+
+DHCP Relay  -   Forwards DHCP packets between client and servers ( Typically only used when client and server are not located on same subnet / network )
+
+Operates using UDP (fire and forget)
+
+IP Helper   -   Forwards several different kinds of UDP broadcast across router and can be used in conjunction with the DHCP relay ( needed on clients router in order to have a properly working DHCP )

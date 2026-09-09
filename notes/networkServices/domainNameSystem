@@ -1,0 +1,27 @@
+DNS
+
+Human-readable hostnames instead of numeric IP addresses
+
+Fully-Qualified Domain Name (FQDN): A domain name that is under a top-level provider
+    Examples: .com  .mil .edu  .org  .net
+
+DNS Heirarchy:
+
+Root                    -       Answers requests in root zone
+
+Top-Level Domain        -       .com .net .uk .it. fr
+
+Second-Level Domain     -       diontraining.com        second-level = diontraining     top-level = .com
+
+Subdomain               -       www.diontraining.com, support.diontraining.com, mail.diontraining.com
+
+Host                   -       Refers to a specific machine
+
+
+URL - Uniform Resource Locator
+
+https://www.diontraining.com makes it secure
+
+Host File   -   text file that serves as first point of contact when a device is seeking out communication with other devices over the network
+
+Host File >>> DNS

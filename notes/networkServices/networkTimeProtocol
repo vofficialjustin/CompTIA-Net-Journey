@@ -1,0 +1,20 @@
+NTP (old)
+
+Synchronizes clocks between systems communicating over a packet-switched, variable-latency data network
+
+Sent over UDP using port 123
+
+How it works
+
+Stratum 0 - 15
+
+0 = Most precise timekeeping devices
+1 (Primary time servers) = Any computer whose system time is synchronized within a few microseconds of an attached stratum ZERO device
+2 = Any computer whose system time is synchronized within a few microseconds of an attached stratum ONE device or queried to multiple stratum ONE servers
+3 = Same but connecting to straum 2 servers
+4 ... Same ( Each time adds more delay )
+
+Newer Protocol fixing weaknesses
+
+Precision Time Protocol (PTP) - Synchronizes clocks throughoout a computer network offering a higher precision solution for scenarios where every microsecond counts
+Network Time Security Protocol (NTS) - Extension of NTP providing cryptographic security 

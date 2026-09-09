@@ -1,0 +1,12 @@
+SLAAC
+
+Integral component of the IPv6 protocol
+
+Used to simplify network configuration process and make assigning IP addresses easy; Allows hosts to configure their own IP addressses autonomously and without authority
+
+Steps:
+1. Device Initiation; generates temporary link local address
+2. Router Solicitation; asks for any local routers to identify themselves
+3. Router Advertisement; local routers respond with information about the network and where the host fits in; THIS IS WHERE THEY PROVIDE THE PREFIX OF YOUR LOCAL NETWORK
+4. Address Configuration; The device itself will combine the network prefix with its own unique identifier that derives from its hardware address to make a unique IP address
+5. Final Check; performs a neighbor solicitation to make sure no one else has that IP

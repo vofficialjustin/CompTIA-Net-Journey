@@ -1,0 +1,26 @@
+DNS Record          Description                    Function
+    A                 Address               Links hostname to IPv4
+    AAAA                                    Same, but for IPv6
+    CNAME             Canonical Name        Points domain to another or subdomain
+    MX                Mail Exchange         Directs emails to mail server
+    SOA               Start of Authority    Stores important info about a domain or zone                Zone transfer = Sends DNS recors data from primary to a secondary nameserver
+    PTR               Pointer               Correlates IP address with a domain name                    Reverse DNS Lookup = Determines what the domain name is for a given IP address
+    TXT               Text                  Adds text into the DNS 
+    NS        nameserver            Indicates which DNS nameserver has the Authority            Type of DNS server that stores all the DNS records for a given domain
+
+    Domain name -> IP address = Forward Lookup
+
+    Internal DNS - Allows cloud instances on the same network access each other using internal DNS names
+    External DNS - Records created around the domain names from a central authority and used on the public internet
+
+    Time To Live (TTL) - Tells DNS resolver how long to cache a query before requesting a new one
+    DNS Resolver/DNS Cache - Makes a local copy of every DNS entry it resolves as the user connects to websites
+
+    DNS uses a recursive strat to perform a look up
+        If your local DNS server does not know the answer, it moves up a level and they ask around, and so on.
+
+    Recursive Lookup - DNS server hunts it down and report back to the resolver
+
+    VS
+
+    Iterative Lookup - DNS resolver will continually query DNS servers until it finds the domain IP

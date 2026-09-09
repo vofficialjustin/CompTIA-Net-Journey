@@ -1,0 +1,6 @@
+DNS Security Extensions (DNSSEC)
+    -Provides data integrity and authentication but does not encrypt DNS queries
+DNS over HTTPS (DoH)
+    - Encrypts DNS queries using the HTTPS Protocol, ensuring privacy and security during transmission
+DNS over TLS (DoT)
+    - Encrypts DNS queries using Transport Layer Security, but does not utilize HTTPS
