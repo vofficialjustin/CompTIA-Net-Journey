@@ -1,0 +1,21 @@
+Network Function Virtualization (NFV)
+    - Reshaping the telecommunications industry by introducing agility and flexibility to hardware-dependant networks
+    - Relies on software applications known as Virtual Network Functions (VNFs)
+    - Replaces the need to install new hardware appliance and instead more like installing an app on a device, but for your data center
+
+Relies on 3 Main Components to work:
+    NFV Infrastructure
+        - Includes the hardware and virtual resources necessary for deploying, managing, and excecuting VNFs
+    Management and Network Orchestration (MANO)
+        - Oversees the lifecycle management of the VNFs, and orchestrates the resources across the NFVI
+    Virtual Network Functions (VNFs)
+        - Software implementations of network functions that were traditionally bound to hardware applicances
+
+Advantages
+    - Flexibility and rapid deployments
+    - Cost Efficiency
+
+What to keep in mind of when transitioning:
+    - Security
+    - Complexity
+    - Installation

@@ -1,0 +1,14 @@
+Virtual Private Network
+    - Establishes secure connection between an on-premise network, remote offices. client devices, and provider's global network 
+    - Extend through an encrypted VPN tunnel in the public internet from the cloud provider network to your own enterprise network
+
+Private direct connection
+    = Amazon Web Services (Direct Connect Gateway)
+    - Microsoft Azure (Azure Express Route)
+
+    - Extends on-premise data center into the provider's network to directly connect to the virtual private cloud network
+    - Bypasses internet directly
+
+Difference?
+    - Private direct connection is faster speeds and better performance, but also more expensive
+
