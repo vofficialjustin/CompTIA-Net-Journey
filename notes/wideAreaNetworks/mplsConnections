@@ -1,0 +1,7 @@
+Multiprotocol Label Switching
+    - Technique that is leveraged by service providers to elevate the efficiency and flexibility of their networks
+
+Behind the scenes
+
+Label Routing
+    Routes traffic from switch to switch depending on the label given to each data packet

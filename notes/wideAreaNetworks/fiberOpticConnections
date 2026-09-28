@@ -1,0 +1,26 @@
+Fiber to the Home (FTTH)
+    - Fiber optic connection brought directly to individual residences
+    - Highest speed and reliability
+
+Fiber to the Curb/Cabinet (FTTC)
+    - Runs to the curbside or cabinent and use traditional copper cable for individual homes or buisnesses
+    - Strikes balance between cost and performance
+
+Fiber to the Node/Neighborhood (FTTN)
+    - Extended to a central point in a particular area or neighborhood
+    - Allows service providers to leverage existing copper infrastructure that offers improved speeds
+
+Fiber to the Building/Basement (FTTB)
+    - Fiber optic cables reach the building's main communication room or basement
+
+
+
+    FTTH
+                    ---->       FAST
+    FTTB
+
+
+
+    FTTC
+                    ---->       SLOW
+    FTTN

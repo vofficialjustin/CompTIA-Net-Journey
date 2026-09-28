@@ -1,0 +1,34 @@
+2G, 3G, 4G, LTE, 5G
+
+G = Generation of cellular technology being used
+
+technology                      Frequency                 Speed
+1G                              30 KHz                  2 Kbps
+2G                              1800 MHz                14.4-64 Kbps
+3G                              1.6-2 GHz               144 Kbps - 2 Mbps                   (No need to remember for exam)
+4G                              2-8 GHz                 100 Mbps - 1 Gbps
+4G LTE (Long Term Evolution)    
+5G                         (Low-band) 600-850 MHz       30-250 Mbps
+                           (Mid-band) 2.5-3.7 GHz       100-900 Mbps                        
+                           (High-band) 25-39 GHz        Extremely fast (in Gbps)
+
+
+                           (Just remember higher the G the faster and 5G is split into 3 bands)
+                           Lowband used for further distance, but lower speeds
+                           Midband used for good distance for good speeds 
+                           Highband used for short distance, high speeds
+
+
+Global System for Mobile Communications (GSM) - Cellular tech that takes the voice during a call and then converts it to digital data
+Code-Division Multiple Access (CDMA) - Cellulary tech that uses code division to split up the channel
+
+CDMA > GSM
+
+GSM adopted feastures of CDMA -> WCDMA or UMTS
+
+Depends on where you live and service provider
+
+US (T-Mobile/AT&T)      GSM
+US (Verizon)            CDMA
+Japan/South Korea       CDMA
+Other Countries         GSM

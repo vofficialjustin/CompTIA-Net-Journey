@@ -1,0 +1,10 @@
+DSL Connections
+
+Family of technologies that provide internet access by transmitting digital data over the wires of local telephone network
+
+Three types of DSL
+    ADSL - Asymmetric; Has different download and upload speeds; Maxamizes download and minimizes upload; 4000 - 18000 ft
+    SDSL - Symmetric; Works like a T1 with equal upload and download speeds; Slower speeds overall
+    VDSL - Very High Bit-Rate; Has very high speeds; Down over 50 Mbps and Up over 10 Mbps; Limitation is DSLAM (Point of presence of that owned telephone company); Need to be about 4000ft from that DSLAM
+
+    DSL declined in popularity

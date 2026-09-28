@@ -1,0 +1,19 @@
+DOCSIS
+
+Hybrid fiber-coaxial (HFC)
+    High-capacity highway that carries vast amount of data using a blend of fiber-optic and coaxial cables
+
+Data Over Cable Service (DOCSIS)
+    Standardizes how data is transmitted over a hybrid fiber-coaxial network
+
+    Upstream (Out from you're house)
+        Between 5 - 42 MHz
+
+    Downstream
+        Between 50 - 860 MHz (Data recieved)
+
+    This manages traffic and makes sure no collisions in traffic jam
+
+    Cable Modems are always asynchronus. Upload and download will be different
+
+    

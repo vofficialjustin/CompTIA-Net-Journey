@@ -1,0 +1,13 @@
+Satelite Internet Access
+    - Communication satelites located in space to connect a user to the internet
+
+    Normally used in homes far out in country or far from civilization where their only option is satelite
+        - They use dish satelites that points at the sky
+
+    Speed wont be as fast as fiber, microwave link, or even some cable modems
+    Expensive
+    High Latency
+
+    But recently, Starlink has been creating faster transmission speeds and deploy thousands of satelites
+        Latency of 25-30ms instead of 5000ms
+        Did this by not using geosynchronus orbits (FAR AS FREAK OUT IN SPACE), but now they came a lot closer (tradeoff is that they cover less of earth)
