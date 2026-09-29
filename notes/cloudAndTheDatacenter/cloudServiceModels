@@ -1,0 +1,18 @@
+On-Premise Solutions
+    - Offer strong security but come with high costs
+    - Needs to procure hardware, software, and personnel necessary to run the organiztion's cloud
+    - Needs have a facility to hold all of the equipment and  provide space, power, and cooling for it to work properly
+    - Ability to control all the physical and logical accesss to servers
+
+Hosted
+    - Third-party service provider that provides all the hardware and facilities needed to maintain a cloud solution
+    - Amazon, Microsoft, and Google
+    - Data in multitenancy (Multiple organizations having their cloud hosted under a single third party environment) solutions may be exposed to other servers
+
+Three Main Cloud Service Models
+    1. Software as a Service (SaaS)
+        - The provider manages everything. You just use the finished software through a browser or app, and handle your own data and access settings. Least control, most convenience. (Gmail)
+    2. Platform as a Service (PaaS)
+        - The provider manages the infrastructure, OS, and runtime. You just deploy your code and manage your app and data. Balanced control and convenience. (Heroku)
+    3. Infrastructure as a Service (IaaS)
+        - The provider gives you a virtual server, storage, and networking. You install and manage the OS, middleware, runtime, and your app. Most control, most work. (AWS EC2)

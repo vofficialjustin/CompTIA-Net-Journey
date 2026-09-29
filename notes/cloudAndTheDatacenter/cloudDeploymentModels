@@ -1,0 +1,23 @@
+Six Types of Cloud Deployment Models Available:
+    Public (Most Common)
+        - System and users interact with devices on public networks, such as the internet and other clouds
+        - Ex. Google Drive
+        - Provides organizations a quick and cost-efficient way to access essential services
+
+    Private
+        - Used by different organizations within the cloud
+        - Chosen when security is more important than having a lower cost
+        - Ex. GovCloud
+    Hybrid
+        - A mix of public and private, where you are able to keep sensitive data private and still be able to handle traffic spikes with certain data being public
+    Community
+        - Infrastructure is shared between several different orgs with common service needs
+        - Like compliance rules or security requirements
+        - Data is seperated to each org, but go through a funnel of rules and requirements first.
+    Multi-Tenancy
+        - Allows customers to share computing resources in a public or private cloud
+        - Secuirty concerns
+        - One customer gets a DoS attack, the entire server goes through the same attack. All the connecting customers to that server are affected as well
+    Single-Tenancy
+        - Assigns a particular resource to a customer
+        - Less efficient, and more expensive

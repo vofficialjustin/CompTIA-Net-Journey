@@ -1,0 +1,28 @@
+Benefits/Characteristics
+    - High Availability
+        Services experience Very little down time
+        Measured by a percentage (Uptime vs downtime)
+        5 Nines - 99.999%
+        Multiple servers holding up a website, so if one goes down, then the other one is available
+    - Scaleabiity
+        Able to increase the amount  of items in a system at a linear rate or less than a linear rate
+        Vertical Scaling (Scale Up)
+            - Including more resources like RAM, CPUs, Memory to handle a high amount of volume
+        Horizontal Scaling (Scale Out)
+            - Instead of one server holding all the volume, you distribute it across multiple.
+    - Elasticity
+        Ability to scale up or down quickly
+        With a random burst of volume, you will need to be able to capture all of it quick by scaling automatically
+    - Metered Utilization
+        Pay-per-Use basis
+            - # of users
+            - # of connections
+            - # of stored data
+        Metered vs Measured
+            Metered = Per-Use                       Ex.Water Bill (The more you use, the more you pay)
+            Measured = Plan/Subscription            Ex.Netflix (Monthly subscription)
+    - Shared resources
+        Minimize the cost by putting VMs on other servers
+        Splits resources amoungst users to only give what they need while saving the extra for someone else to use
+    - File synchronization
+        Ability to store data which can then spread to other places depending on configuration
