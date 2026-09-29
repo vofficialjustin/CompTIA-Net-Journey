@@ -1,0 +1,19 @@
+Secure Access Secure Edge (SASE)
+    - Combines networking and security functions into a single cloud-native service to ensure secure and seamless access for end-users
+    - Uses SDN
+    Most similar alignments of SASE:
+    - AWS -> VPC
+    - Azure -> Azure Virtual WAN or Azure ExpressRoute
+    - Google -> Google Cloud Interconnect or Coogle Cloud VPN
+
+Security Service Edge (SSE)
+    - Subset of SASE
+    - Focuses on security services
+    -  Delivered as a service to provide secure access to the Internet, cloud services, and private applications
+    - Secure Web Gateways (SWG)
+        Filters unwanted software and malware from user-initiated web and Internet traffic
+    - Cloud Access Security Brokers (CASB)
+        Border device between cloud service consumers and the providers to monitor activity and enfore their security policies
+    - Zero Trust Network Access (ZTNA)
+        No user device, inside or outside of the org's network, is trusted
+        

@@ -1,0 +1,63 @@
+Within a Virtual Private Cloud
+
+Virtual Private Cloud (VPC)
+    - Used to provision a logically isolated section of a cloud
+    - Use software to create a virtual network environment that is
+    much more flexible and scalable than a traditional hardware-based
+    network would allow
+    - Part of a larger concept called IAC (Infrastructure as code)
+
+Infrastructure as Code (IAC)
+    - Provisioning of architecture where the deployment of resources is
+    performed by scripted automation and orchestration
+
+Provides us with a lot of features such as:
+    Subnets
+        - Range within VPC that can be allocated to the instances
+        to be launched
+        - Public or Private subnets
+
+    Route Tables
+        - Contains set of rules that determines where network traffic
+        is directed by switches and routers within the VPC
+
+    Internet Gateway
+        - Allows communication between instances in the VPC
+        and the Internet
+        
+    Network Address Translation (NAT) Gateway
+        - Instances in a private subnet to connect to the Internet
+        or other cloud service provider resources or services, but
+        prevents the Internet from initiating a connection with those
+        instances
+
+    Network (ACL) Access Control List
+        - Similar to traditional network firewalls and operates at the
+        subnet level within the VPC
+        - Subnet level
+        - Creates two sets of rules:
+            Inbound rules
+                - Control the traffic that's allowed to enter the subnet
+            Outbound rules
+                - Govern the traffic that's allowed to leave the subnet
+        - Security Groups
+            - Instance level
+        - Using both NASLs and Security Groups offer a lot fo different security advantages
+        , but are critically important to correctly be configured
+    VPC Peering
+        - A networking connection between two VPCs that enable routing traffic between 
+        them privately
+        - Improve security and performance on resources
+    VPC Endpoints
+        - Allow private connectivity to services hosted in AWS from within the VPC without 
+        an Internet Gateway, VPN, or AWS Direct Connect
+    VPN Connections
+        - Can be created between the VPC and the remote network or between two VPCs
+
+Pros
+    - flexible
+    - scalable
+    - security
+Cons
+    - Risk of being single point of failure
+    - Need for being properly secured
